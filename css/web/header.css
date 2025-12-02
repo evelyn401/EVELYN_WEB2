@@ -10,4 +10,6 @@ header > section{
     /* 置中 上下0 左右自動 */
     margin: 0 auto;
     background-color: #F6F3EF;
+    /* 顯示：彈性佈局 */
+    display: flex;
 }
