@@ -4,7 +4,7 @@ header{
     background-color: #EAD8C0;
 }
 
-/* 指定（後代）選取器 最多指定三階 */
+/* 指定（後代）選取器 （最多指定三階）*/
 header > section{
     width: 80%;
     /* 置中 上下0 左右自動 */
@@ -18,8 +18,4 @@ header > section{
 }
 section > nav > ul {
     display: flex;
-}
-nav > ul > li {
-    /* 左右間距20px */
-    margin: 0 20px;
 }
