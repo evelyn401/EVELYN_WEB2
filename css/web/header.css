@@ -20,8 +20,13 @@ header > section{
     color: #5E4B3C;
 }
 
+header > section > h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 header > section > nav{
-    width: 60%;
+    width: 45%;
     /* background-color: aquamarine; */
 }
 
@@ -36,4 +41,9 @@ section > nav > ul {
     text-decoration: none;
     color: #5E4B3C;
     font-weight: bold;
+    font-size: 18px;
+}
+#Logo > img{
+    width: 150px;
+    height: auto;
 }
