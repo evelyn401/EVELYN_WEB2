@@ -1,4 +1,6 @@
+@import url('http://fonts.googleapis.com/earlyaccess/cwtexyen.css');
 /* 匯入檔案 */
 @import url(joint/reset.css);
+@import url(joint/joint.css);
 @import url(web/header.css);
 @import url(web/footer.css);
