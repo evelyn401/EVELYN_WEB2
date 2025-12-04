@@ -60,6 +60,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
+#Skills .Cards .CardsPadding{
+    padding: 10px;
+    text-align: center;
+}
 
 #Works .Title h2 {
     color: #F6F3EF;
