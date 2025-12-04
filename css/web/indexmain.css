@@ -34,6 +34,33 @@
     font-size: 18px;
 }
 
+
+/* 技能卡片 */
+#Skills > #Cards{
+    /* background-color:#d0bfae; */
+    width: 50%;
+    /* 置中 */
+    margin: 0 auto;
+    /* 彈性佈局 */
+    display: flex;
+    /* 垂直置中 */
+    justify-content: center;
+    /* 間距 */
+    gap: 60px;
+    padding-bottom: 80px;
+}
+.Cards {
+    background-color: #d0bfae;
+    /* 利用函式計算寬度 不同單位不能計算 ((外層總寬度 / 卡片數量 - 間距值) *1倍單位值 )*/
+    width: calc((100 / 3 - 6)*1%);
+    height: 350px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5E4B3C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
 #Works .Title h2 {
     color: #F6F3EF;
 }
