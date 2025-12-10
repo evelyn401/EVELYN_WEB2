@@ -62,6 +62,18 @@
 #Skills .Cards .CardsPadding{
     padding: 5px 10px;
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.CardsPadding img{
+    width: 150px;
+    height: 150px;
+}
+.CardsPadding li{
+    font-size: 14px;
+    font-weight: normal;
+    /* 行高 */
+    line-height: 1.6;
 }
 
 /* 作品集 */
