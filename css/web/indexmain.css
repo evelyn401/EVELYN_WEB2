@@ -63,6 +63,8 @@
     padding: 5px 10px;
     text-align: center;
 }
+
+/* 作品集 */
 #Works {
     background-image: url(/images/background/work01.jpg);
     background-size: cover;
@@ -71,11 +73,9 @@
     /* 背景滾動 */
     background-attachment: fixed;
 }
-
 #Works .Title h2 {
     color: #F6F3EF;
 }
-
 .lineW {
     width: 80px;
     height: 3px;
@@ -83,7 +83,6 @@
     margin: 15px auto 0 auto;
     border-radius: 2px;
 }
-
 .WorksItems {
     /* background-color: aqua; */
     width: 50%;
