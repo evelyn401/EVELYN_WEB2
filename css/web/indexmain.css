@@ -7,7 +7,7 @@
 #Abouts .Title, #Skills .Title, #Works .Title, #Contacts .Title {
     text-align: center;
     /* 留白取代高度 */
-    padding: 80px 0 40px 0;
+    padding: 150px 0 40px 0;
     font-size: 22px;
     font-weight: bold;
     color: #5E4B3C;
