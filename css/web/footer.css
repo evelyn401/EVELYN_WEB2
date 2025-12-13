@@ -2,6 +2,11 @@ footer{
     /* 留白取代高度 */
     padding: 20px 0;
     background-color: #5e4b3c;
+    /* 背景圖 */
+    background-image: url(../../images/background/footer01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #FooterContent > h5 {
