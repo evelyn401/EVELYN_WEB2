@@ -22,6 +22,8 @@ header > section{
     /* 停留在最上方 定位點：停佇 */
     position: fixed;
     top: 0;
+    /* 順序 設定階層 */
+    z-index: 10;
 }
 
 header > section > h1{
