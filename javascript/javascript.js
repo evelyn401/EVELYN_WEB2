@@ -1,2 +1,4 @@
 // 取得 html 元素(id)
-document.getElementById("Year").textContent = new Date().getFullYear();
+// 新增變數 year 縮短程式碼
+let year =document.getElementById("Year");
+year.textContent = new Date().getFullYear();
