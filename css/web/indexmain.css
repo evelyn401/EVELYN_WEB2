@@ -52,7 +52,8 @@
 .Cards {
     background-color: #F6F3EF;
     /* 利用函式計算寬度 不同單位不能計算 ((外層總寬度 / 卡片數量 - 間距值) *1倍單位值 )*/
-    width: calc((100 / 3 - 6)*1%);
+    /* width: calc((100 / 3 - 6)*1%); */
+    width: 300px;
     font-size: 18px;
     font-weight: bold;
     color: #5E4B3C;
@@ -64,6 +65,9 @@
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    /* 水平置中 */
+    justify-content: center;
+    /* background-color: aqua; */
 }
 .CardsPadding img{
     width: 150px;

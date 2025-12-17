@@ -7,3 +7,5 @@ export function Years(ID){
     let Years = new Date().getFullYear();
     Year.textContent = Years;
 };
+
+// 邏輯運算子 按照時間顯示不同訊息
