@@ -21,6 +21,7 @@ export function BannerCarousel() {
         // 隱藏目前的圖片 Active
         Images[currentIndex].classList.remove( "Active" );
         // 計算圖片的索引值 求餘數 % 被除數（目前的圖片索引 - 1 + 總圖片數量）除以 總圖片數量
+        // 加上 總圖片數量 是為了避免出現負數的情況 
         currentIndex = ( currentIndex - 1 + totalImages ) % totalImages;
         // 顯示上一張圖片 Active
         Images[currentIndex].classList.add( "Active" );
