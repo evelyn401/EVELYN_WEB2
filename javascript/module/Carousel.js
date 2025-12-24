@@ -58,14 +58,28 @@ export function BannerCarousel() {
     }
 
     // 手動切換圖片後，延遲三秒重新啟動自動輪播
-    function restartTimeout() {
+    function restartAutoPlay() {
         // 設置延遲重啟的計時器
         restartTimeout = setTimeout( startAutoPlay, 3000 );
     }
+    // 啟動自動輪播
+        startAutoPlay();
 
     // 按鈕功能
-    document.getElementById( "NextBtn" ).addEventListener( "click", showNextImage );
-    document.getElementById( "PrevBtn" ).addEventListener( "click", showPrevImage );
-
-
+    document.getElementById( "NextBtn" ).addEventListener( "click", () => {
+        // 停止自動輪播
+        stopAutoPlay();
+        // 顯示下一張圖片
+        showNextImage();
+        // 延遲三秒重新啟動自動輪播
+        restartAutoPlay();
+    });
+    document.getElementById( "PrevBtn" ).addEventListener( "click", () => {
+        // 停止自動輪播
+        stopAutoPlay();
+        // 顯示上一張圖片
+        showPrevImage();
+        // 延遲三秒重新啟動自動輪播
+        restartAutoPlay();
+    });
 }
