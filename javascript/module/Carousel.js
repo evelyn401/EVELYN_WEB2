@@ -57,6 +57,12 @@ export function BannerCarousel() {
         clearTimeout( restartTimeout );
     }
 
+    // 手動切換圖片後，延遲三秒重新啟動自動輪播
+    function restartTimeout() {
+        // 設置延遲重啟的計時器
+        restartTimeout = setTimeout( startAutoPlay, 3000 );
+    }
+
     // 按鈕功能
     document.getElementById( "NextBtn" ).addEventListener( "click", showNextImage );
     document.getElementById( "PrevBtn" ).addEventListener( "click", showPrevImage );
