@@ -29,6 +29,8 @@ export function NavBar(){
         Li.appendChild(Alink);
         // 在 a標籤內加入 連結文字
         Alink.textContent = MenuItems[i];
+        // 在 li標籤內加入 id屬性，設定樣式表
+        Li.setAttribute("id", MenuIDs[i]);
         // 在 a標籤內加入 href屬性，設定連結位置
         Alink.setAttribute("href", MenuLinks[i]);
     }
