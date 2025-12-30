@@ -6,7 +6,10 @@
     <title>Vue功能測試</title>
 </head>
 <body>
-    <div id="app">{{ message }}</div>
+    <div id="app">
+        {{ message }}
+        <div v-html="message"></div>
+    </div>
     <!-- 放在 body 結束前，確保 DOM 完全載入 -->
     <script type="module" src="vue/vue.js"></script>
 </body>

@@ -4,7 +4,7 @@ import { BannerCarousel } from './module/Carousel.js'
 createApp({
     data() {
         return {
-            message: 'Hello Vue!'
+            message: '<span style="color: red">This should be red.</span>'
         }
     }
 }).mount('#app');
