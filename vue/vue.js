@@ -11,8 +11,8 @@ createApp({
                 style: { color: "blue" }
             },
             text: "我是字串",
-            // IfText:true
-            IfText:false
+            IfText:true
+            // IfText:false
         }
     },
     // 自訂函式內容
