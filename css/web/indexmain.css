@@ -129,9 +129,9 @@
     /* 文字透明 */
     color:transparent;
     /* 感應高度 */
-    height: 200px;
+    height: 100%;
     /* 感應寬度 */
-    width: 300px;
+    width: 100%;
     /* 彈性佈局 */
     display: flex;
     /* 水平置中 */
