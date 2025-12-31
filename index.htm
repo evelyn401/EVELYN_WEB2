@@ -100,10 +100,10 @@
             </div>
             <ol class="WorksItems">
                 <li v-if="BIGIMAGE" class="One PictureContect">
-                    <a href="javascript:;"><span>Packaging Design</span></a>
+                    <a @click="ShowCloseBigImage" href="javascript:;"><span>Packaging Design</span></a>
                 </li>
                 <div v-else id="BigImage">
-                    <span class="CloseBtn">CLOSE</span>
+                    <span @click="ShowCloseBigImage" class="CloseBtn">CLOSE</span>
                     <p>大圖</p>
                 </div>
                 <li class="Two PictureContect">

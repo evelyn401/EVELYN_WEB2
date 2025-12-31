@@ -28,6 +28,12 @@ const app2 = createApp({
         return {
             BIGIMAGE: true
         }
+    },
+    methods: {
+        // 自訂函式內容
+        ShowCloseBigImage(){
+            this.BIGIMAGE = !this.BIGIMAGE;
+        }
     }
 }).mount('#App');
 
