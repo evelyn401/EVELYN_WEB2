@@ -99,10 +99,10 @@
                 <p class="lineW"></p>
             </div>
             <ol class="WorksItems">
-                <li class="One PictureContect">
+                <li v-if="BIGIMAGE" class="One PictureContect">
                     <a href="javascript:;"><span>Packaging Design</span></a>
                 </li>
-                <div id="BigImage">
+                <div v-else id="BigImage">
                     <span class="CloseBtn">CLOSE</span>
                     <p>大圖</p>
                 </div>

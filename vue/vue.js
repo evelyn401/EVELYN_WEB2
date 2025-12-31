@@ -26,7 +26,7 @@ const app = createApp({
 const app2 = createApp({
     data() {
         return {
-            
+            BIGIMAGE: true
         }
     }
 }).mount('#App');
