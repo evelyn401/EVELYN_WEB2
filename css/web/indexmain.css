@@ -122,8 +122,6 @@
     border-radius: 8px;
 }
 .WorksItems li a {
-    font-size: 20px;
-    font-weight: bold;
     color: #5E4B3C;
     text-decoration: none;
     /* 文字透明 */
@@ -148,6 +146,8 @@
 a:hover span{
     /* 文字顏色 */
     color: #F6F3EF;
+    font-size: 20px;
+    font-weight: bold;
 }
 .One{
     background-image: url(/images/work/work1.png);
