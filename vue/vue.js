@@ -42,7 +42,7 @@ const app2 = createApp({
             ],
             // 新增：目前顯示的輪播圖索引
             currentIndex: 0,
-            // 新增：自動輪播計時器
+            // 新增：自動輪播計時器(null表示未啟動)
             autoPlayInterval: null
         }
     },
