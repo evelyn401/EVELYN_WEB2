@@ -6,5 +6,5 @@ import { NavBar } from "./module/navbar.js";
 // 執行函式
 // 參數為 html 元素 id
 Years("Year");
-BannerCarousel();
+// BannerCarousel();
 NavBar();
