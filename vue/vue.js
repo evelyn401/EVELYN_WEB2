@@ -67,11 +67,9 @@ const app2 = createApp({
                 item.class = index === this.currentIndex ? "CarouselImg Active" : "CarouselImg";
             });
         },
-        // 新增：啟動自動輪播
+        // 新增：啟動自動輪播 每3秒切換一次
         startAutoPlay() {
-            this.autoPlayInterval = setInterval(() => {
-                this.nextSlide();
-            }, 3000); // 每3秒切換一次
+            this.autoPlayInterval = setInterval(this.nextSlide,3000); 
         },
         // 新增：停止自動輪播
         stopAutoPlay() {
