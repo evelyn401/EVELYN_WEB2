@@ -39,7 +39,15 @@ const app2 = createApp({
                 {id:"One", class:"CarouselItem Active", img:"images/CarouselXXL/1.png", text:"Graphic Design"},
                 {id:"Two", class:"CarouselItem", img:"images/CarouselXXL/2.png", text:"Storybook Design"},
                 {id:"Three", class:"CarouselItem", img:"images/CarouselXXL/3.png", text:"Packaging Design"}
-            ]
+            ],
+            // 預設輪播圖索引值
+            carouselIndex: 0
+        }
+    },
+    computed:{
+        // 動態生成綁定在style屬性的物件
+        CarouselStyle(){
+            return this.CarouselItems[this.carouselIndex];
         }
     },
     methods: {
