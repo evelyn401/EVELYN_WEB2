@@ -33,3 +33,8 @@ const confession = {
     }
 };
 confession.start();
+
+// 5. DOM事件監聽處理函式內的 this 指向觸發事件的元素
+document.getElementById("myButton").addEventListener("click", function(){
+    console.log(this.id); // "myButton"
+});
