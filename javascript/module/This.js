@@ -88,3 +88,22 @@ function CallApplyExample(){
 // ✅ 加上這行，呼叫函式
 CallApplyExample();
 
+// 2.事件處理函式（使用 bind 綁定 this 指向特定物件）
+function BindExample(){
+    // 1. 建立一個計數器物件
+    const counter = {
+        count: 0,  // 初始計數為 0
+        increment(){  // 遞增方法
+            this.count++;  // 將 count 加 1
+            console.log(this.count);  // 輸出當前計數
+        }
+    };
+    // 2. 取得 ID 為 "MyCount" 的按鈕元素
+    const Button = document.getElementById("MyCount");
+    // 3. 綁定點擊事件，呼叫新的函式，並傳遞剩餘的參數
+    Button.addEventListener("click", counter.increment.bind(counter));
+    //                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    //                               使用 bind() 確保 this 指向 counter 物件
+}
+// 呼叫函式來設定事件監聽器
+BindExample();  
