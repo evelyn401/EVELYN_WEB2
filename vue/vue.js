@@ -64,7 +64,7 @@ const app2 = createApp({
         }
     },
     methods: {
-        // 自訂函式內容
+        // 自訂函式內容 修改：開啟大圖並傳入圖片資訊
         ShowCloseBigImage(imageData) {
             if (imageData) {
                 // 如果有傳入圖片資料，就儲存到 selectedImage
