@@ -37,7 +37,7 @@ WEB/
 ## 🛠️ 技術棧
 
 - **HTML5**: 語意化標籤
-- **CSS3**: Flexbox、Grid 佈局、RWD 響應式設計
+- **CSS3**: Flexbox、Grid 佈局
 - **JavaScript ES6+**: 模組化程式碼
 - **Vue 3**: 前端框架，使用 ESM 模組載入
 - **GitHub Pages**: 網站託管服務
