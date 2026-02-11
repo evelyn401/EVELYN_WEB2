@@ -106,6 +106,7 @@
                 <li v-for="work in worksImages" 
                     :key="work.id" 
                     :class="work.id + ' PictureContect'"
+                    :style="{ backgroundImage: 'url(' + work.src + ')' }"
                     v-show="BIGIMAGE">
                     <a @click="ShowCloseBigImage(work)" href="javascript:;">
                         <span>{{ work.title }}</span>
@@ -113,7 +114,7 @@
                 </li>
                 <div v-show="!BIGIMAGE" id="BigImage">
                     <span @click="ShowCloseBigImage(null)" class="CloseBtn">CLOSE</span>
-                        <img :src="selectedImage.src" :alt="selectedImage.alt">
+                        <img v-if="selectedImage.src" :src="selectedImage.src" :alt="selectedImage.alt">
                 </div> 
             </ol>
         </section>
